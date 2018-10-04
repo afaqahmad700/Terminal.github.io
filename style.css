@@ -1,0 +1,244 @@
+body {
+  background-color: #FFF;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 0px 50px;
+}
+
+.banner {
+  background-image: url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?cs=srgb&dl=daylight-forest-glossy-443446.jpg&fm=jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+}
+
+#banner-content {
+  position: relative;
+  top: 50%;
+  width: 80%;
+  margin: auto 
+ }
+
+
+h1 {
+  color: cornflowerblue;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin:auto 0;
+  font-family:Courier New;
+}
+
+h2 {
+  border: 1px solid #D7263D;
+  color: #D7263D;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 40px 12%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #D7263D;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10%;
+  text-transform: uppercase;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+}
+
+.pull-quote {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 70%;
+}
+
+.byline { 
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+  color: #333;
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.share {
+  border: 1px solid #DDD;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: #D7263D;
+  border: 1px solid #D7263D;
+  border-radius: 3px;
+  color: #FFF;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+body {
+	font-family:'Raleway', sans-serif;
+	font-weight:300;
+	line-height:30px;
+	color:black;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+.share a:hover {
+  background: #FFF;
+  border: 1px solid #D7263D;
+  color: #D7263D;
+  animation: ease;
+}
