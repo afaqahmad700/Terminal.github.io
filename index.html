@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="referrer" content="origin">
+      <title>The Tour</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+      <link rel="shortcut icon" href="http://www.iconj.com/ico/p/k/pkt7ekzs4w.ico" type="image/x-icon" />
+   </head>
+   <body>
+      <div class="navigation">
+      <ul>
+         <li class="logo">Naran Kaghan Tour</li>
+      </ul>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+         <img src="http://pakiholic.com/wp-content/uploads/2018/03/maxresdefault-1-2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+         <img src="https://i1.trekearth.com/photos/61543/saifulmuluk.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+         <img src="http://clickpakistan.org/wp-content/uploads/2017/03/naran-3.jpg" style="width:100%">
+      </div>
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span> 
+         <span class="dot" onclick="currentSlide(2)"></span> 
+         <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      <div class="content">
+         <h3>Attracting thousands of tourists, trekkers, photographers and nature-enthusiast, every year.</h3>
+         <span class="byline">Develop By:Afaq Ahmad </span>
+         <p>Until recently, construction on the banks of the Lake had been largely under the control of real estate developers. Construction activities have resulted in a clouding of the lake's blue waters. Currently, the Regional Planning Agency is regulating construction along the shoreline and has won two Federal Supreme Court battles over recent decisions. These regulations are unpopular with many residents, especially those in the Tahoe Lakefront Homeowners Association.</p>
+         <p>In Naran, the climate is cold in winters and mild cool in summers. There is significant rainfall in summers and heavy snowfall in winters. Even the driest month still has a lot of rainfall. The average annual temperature in Naran is 10.1 °C. The region is Alpine in geography and climate, with forests and meadows dominating the landscape below peaks that reach over 17,000 feet. Following is the weather history of Naran </p>
+         <div class="pull-quote">
+            <h2>"The Government embraces responsible and diversified use of the Lake's resources while protecting and restoring its natural attributes"</h2>
+         </div>
+         <p>Naran to Lake Saiful Muluk dusty jeep track is approximately 9 km in length with hiking tracks difficulty level ranging from easy to medium. It can be traveled by jeep in one Hour. Net elevation gain is around 700m (2300 feet).
+         <p>Lulusar is group of mountain peaks and a lake in the Kaghan Valley in the Khyber-Pakhtunkhwa province of Pakistan. The word "sar" means "top" or "peak" in Pashto. The highest peak has a height of 11,200 ft (3,410 m) above sea level (N35.0804 E73.9266). The locale is famous for the scenic and large Lulusar Lake, which is a popular tourism attraction. In the past, the road to Lulusar was very narrow. Now it is large enough.
+         </p>
+      </div>
+      <!contact form started>
+      <div class="container">
+         <form id="contact" action="https://formspree.io/afaqahmad14222@gmail.com" method="post">
+            <h3>Quick Contact</h3>
+            <h4><br>Like what you just read?</br>Contact us today, and get reply with in 24 hours!</h4>
+            <fieldset>
+               <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+               <input placeholder="Your Email Address" name="replyto" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+               <textarea placeholder="Type your Message Here...." tabindex="5" name="send" required></textarea>
+            </fieldset>
+            <fieldset>
+               <button type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+         </form>
+      </div>
+      <!contact form finished>         
+      <div class="share">
+         <a href="#">Share</a>
+         <a href="#">Mark as Favorite</a>
+         <a href="#">Mark as Read</a>
+      </div>
+      <div class="footer">
+         <div id="button"></div>
+         <div id="container">
+            <div id="cont">
+               <div class="footer_center">
+                  <h3>copy right&copy;2018-afaq ahmad <br>all right reserved.</br></h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+         var slideIndex = 0;
+         showSlides();
+         
+         function showSlides() {
+             var i;
+             var slides = document.getElementsByClassName("mySlides");
+             var dots = document.getElementsByClassName("dot");
+             for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+             }
+             slideIndex++;
+             if (slideIndex > slides.length) {slideIndex = 1}    
+             for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+             }
+             slides[slideIndex-1].style.display = "block";  
+             dots[slideIndex-1].className += " active";
+             setTimeout(showSlides, 2000); // Change image every 2 seconds
+         }
+      </script>
+   </body>
+</html>
